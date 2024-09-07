@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saraswati Kumari's Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Saraswati Kumari</h1>
+        <button id="scrollToProfile">Go to Profile</button>
+    </header>
+    <main>
+        <section id="profile" class="profile">
+            <img src="whatsapp.jpg" alt="Profile Picture" class="profile-picture">
+            <div class="profile-info">
+                <h2>About Me</h2>
+                <p class="bio">Hi, I’m Saraswati Kumari. I am a student passionate about software development and web design. I enjoy solving programming problems and learning new technologies.</p>
+            </div>
+        </section>
+        <section class="hobbies">
+            <h3>Hobbies</h3>
+            <ul>
+                <li>Programming</li>
+                <li>Reading Literature</li>
+                <li>Participating in Debates</li>
+            </ul>
+        </section>
+        <section class="contact">
+            <h3>Contact Information</h3>
+            <p>Email: saraswatikumari24@navgurukul.org</p>
+            <p>Phone: +123 456 7890</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Saraswati Kumari</p>
+    </footer>
+    <script>
+        document.getElementById('scrollToProfile').addEventListener('click', function() {
+            document.getElementById('profile').scrollIntoView({ behavior: 'smooth' });
+        });
+    </script>
+</body>
+</html>

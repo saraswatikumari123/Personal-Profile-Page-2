@@ -1,0 +1,30 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.bio {
+    font-size: 1.2em;
+    color: #333;
+    animation: fadeIn 1s ease-out;
+}
+
+.hobbies ul {
+    list-style-type: none;
+    padding: 0;
+    animation: fadeIn 1.5s ease-out;
+}
+
+.hobbies li {
+    background: #ffebee;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    animation: fadeIn 2s ease-out;
+}
